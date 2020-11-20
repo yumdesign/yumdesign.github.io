@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* ==========================================================
+
+	全ページ共通
+
+========================================================== */
+
+.accordion .accordionHead {cursor:pointer;}
+
+ul.accordion {
+	overflow:hidden;
+	}
+	
+ul.accordion > li > a,
+ul.accordion > li > .accordionHead {
+	display:block;
+}

@@ -1,0 +1,58 @@
+/*サイドバー
+---------------------------------------------------------------*/
+ 
+#modal { display: none; font-size:18px; position:relative; }
+ 
+#modal ul#modalMain{
+	padding:55px 0 0 0;
+}
+
+#modal ul#modalMain li {
+	
+	}
+	
+#modal ul#modalMain li .modalMainList {
+	border-bottom:2px solid #cc3333;
+}
+ 
+#modal ul#modalMain li a{
+	text-decoration:none;
+    display:block;
+    color:#fff;
+    padding:10px;
+    background:url(../images/sp_whitearrow.png) no-repeat 95% 50%;
+    background-size:12px 20px;
+}
+
+#modal ul li a.selected {
+	color:#ccc;
+	background-color:#cc3333;
+}
+ 
+.close{
+	font-size:16px;
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:90px;
+    height:38px;
+    line-height:38px;
+	border:1px solid #ff6666;
+	background: #da1414; /* Old browsers */
+		background: -moz-linear-gradient(top,  #990000 0%, #da1414 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#990000), color-stop(100%,#da1414)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #990000 0%,#da1414 100%); /* Chrome10+,Safari5.1+ */
+		background: linear-gradient(to bottom,  #990000 0%,#da1414 100%); /* W3C */
+    border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+ 
+.close a{
+	display:block;
+	background:url(../images/sp_btnclose.png) no-repeat 15px center;
+	background-size:10px 10px;
+    padding:0 0 0 30px;
+	text-decoration:none;
+	color:#fff;
+}

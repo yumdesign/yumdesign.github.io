@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*
+Theme Name: custompost_sp
+Description: mypace customの子テーマのスマホ版。カスタム投稿タイプを搭載。
+Author: Yumie Seko
+Author URI: http://yum-design.net/
+Tags: child, custompost
+Template: mypace_custom
+*/
+
+/*------------------------------------------------------------------------------
+		各ボックス内の詳細指定
+-------------------------------------------------------------------------------*/
+
+
+/*　画像の配置　*/
+.alignnone { /*　指定なし　*/
+	/*padding: 4px;*/
+	border: 1px solid #CCC;
+	background-color: #FFF;
+}
+
+div.alignnone { /*　指定なし:キャプションあり　*/
+	margin-bottom: 10px;
+}
+
+.alignright { /*　右寄せ　*/
+	/*padding: 4px;*/
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	margin: 0 0 10px 10px;
+	/*float: right;*/
+}
+
+.alignleft { /*　左寄せ　*/
+	/*padding: 4px;*/
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	margin: 0 10px 10px 0;
+	/*float: left;*/
+}
+
+.aligncenter { /*　中央配置　*/
+	/*padding: 4px;*/
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	margin: 0px auto 10px;
+	display: block;
+}
+
+.wp-caption { /*　位置指定した画像の枠　*/
+	text-align: center;
+}
+
+.wp-caption-text { /*　投稿内画像下のキャプション　*/
+	/*font-size: 12px;*/
+	line-height: 1.2;
+	color: #666;
+	margin: 0;
+}
+
+.attachment-post-thumbnail { /*　アイキャッチ画像　*/
+	padding: 4px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+
+
+/*　widget　*/
+.widget {
+	margin: 0 0 10px 0;
+}
+
+.footerWidget {
+	/*width: 240px;*/
+	margin: 10px;
+	/* float: left; */
+}
+
+.widget li {
+	/*font-size: small;*/
+	/* list-style: circle; */
+	/* margin: 0 1em 0 1.5em; */
+}
+
+.widget h3 {
+	padding-top:40px;
+	border-bottom:2px solid #000;
+	text-align:left;
+	padding:0 2em;
+}
+
+.widget li a {
+	background:url(images/sp_redarrow.png) no-repeat 5% 50%;
+	background-size:12px 20px;
+	line-height:20px;
+	padding:0 1.6em;
+}
+
+.widget li a:hover {
+	color:#cc0000;
+	background:url(images/sp_redarrow.png) no-repeat 5% 50%;
+	background-size:12px 20px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://yum-design.net/</loc>
+  <priority>1.0</priority>
+  <lastmod>2018-10-16T14:36:31+09:00</lastmod>
+</url>
+<url>
+  <loc>https://yum-design.net/index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://yum-design.net/contact/index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://yum-design.net/work/index.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://yum-design.net/privacy/index.html</loc>
+  <priority>0.7</priority>
+</url>
+
+</urlset>
